@@ -1,0 +1,127 @@
+/*header*/
+*
+{
+}
+
+#logo
+{
+	margin-left: 80px;	
+    width: 200px;
+    height: 60px;
+   margin-top: -10px;
+}
+
+#wrapper {
+	background-image: url("images/Home/Home_2.png");
+	height: 550px;
+	background-size: cover;
+	text-align: center;
+	padding-top: 150px;
+	color: white;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#wrapper h1 {
+font-size: 4em;
+}
+
+#call_to {
+	background-color: #E3441D;
+	margin-top: 2em;
+	border: 1px solid white;
+}
+
+#call_to:hover {
+	opacity: 0.8;
+}
+
+
+#explication {
+	color: white;
+}
+
+#explication1 {
+	margin-top: 6em;
+	font-size: 1.3em;
+}
+
+
+.navigation {
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+
+.navbar-transparent {
+  background-color: #FFFFFF;
+}
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: black;
+}
+
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus,
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: black;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+/*Explication*/
+
+.bloc {
+	margin-top: 5em;
+}
+
+.texte {
+	margin-top: 3em;
+	vertical-align: middle;
+}
+
+.texte h2 {
+	color: #E3441D;
+	text-transform: uppercase;
+}
+
+.texte p {
+	font-size: 1.3em;
+}
+
+#conclusion {
+	background-color: #E3441D;
+	color: white;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+#footer {
+	background-color: #292C2F;
+	color: white;
+	margin-top: -10px;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	font-size: 1.3em;
+}
+
+li{
+list-style-type: none; 
+}
+
+li a, a:hover {
+	color: white;
+}
+
+
+#contact a {
+	color: white;
+	text-decoration: 
+}

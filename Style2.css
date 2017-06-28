@@ -1,0 +1,642 @@
+/*header*/
+*
+{
+	font-family: "Trebuchet MS";
+}
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	background-color: white;
+	height: 70px;
+}
+
+nav ul
+{
+	display: flex;
+	list-style-type: none;
+	padding-bottom: 10px;
+	text-align: right;
+
+}
+
+nav li a
+{
+	color: black;
+	margin-right: 80px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+
+#logo img
+{
+	margin-left: 80px;	
+    width: 200px;
+    height: 60px;
+   margin-bottom: -4px;
+}
+
+
+/* Titre et photo d'accueil*/
+
+#accroche
+{
+	display: flex;
+	color: white;
+	flex-direction: column;
+	height: 550px;
+	background: url("images/Home/Home_2_1.jpg") no-repeat;
+ 	background-size: 100% 130%;
+ 	margin-left: -10px;
+ 	margin-right: -10px; 	
+ 	align-items: center;
+
+}
+
+#titre_accroche
+{
+		font-size: 3em;
+		margin-top: 150px;
+		text-align: center;
+		text-shadow: 0.5px 0.5px 10px black;
+}
+
+#bouton_accroche
+{
+	background-color: rgb(227, 68, 29);
+	font-size: 1.5em;
+	margin-top: 30px;
+	border: 0.7px solid white;
+	padding: 4px 25px 4px 25px;
+	box-shadow: 1px 1px 5px black;
+}
+
+#bouton_accroche a
+{
+	text-decoration: none;
+	color: white;
+}
+
+#explication
+{
+	margin-top: 170px;
+	text-align: center;
+
+}
+
+#explication a
+{
+	text-decoration: underline;
+	color: white;
+	font-size: 1.5em;
+
+}
+
+/* Body - Explication du concept */
+
+#ancre_accroche
+{
+	text-align: center;
+	margin-top: 20px;
+	color: rgb(48, 48, 48);
+}
+
+#Article1
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color:rgb(227, 68, 29);
+	margin-top: 50px;
+}
+
+#Article1 p
+{
+	text-transform: initial;
+	color: rgb(48, 48, 48);
+	font-size: 1.2em;
+	margin-top: -10px;
+	text-align: center;
+}
+
+#img1
+{
+	height: 230px;
+	width: 343px;
+	margin-right: 4%;
+
+}
+
+#Article2
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color:rgb(227, 68, 29);
+	margin-top: 10px;
+}
+
+
+#Article2 p
+{
+	text-transform: initial;
+	color: rgb(48, 48, 48);
+	font-size: 1.2em;
+	margin-top: -10px;
+	text-align: center;
+}
+
+
+#Article2 img
+{
+	height: 230px;
+	width: 343px;
+}
+
+
+#Article3
+{
+	display: flex;
+	margin: auto;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color:rgb(227, 68, 29);
+	margin-top: 10px;
+}
+
+#Article3 p 
+{
+	text-transform: initial;
+	margin-right: 10%;
+	color: rgb(48, 48, 48);
+	font-size: 1.2em;
+	margin-top: -10px;
+	text-align: center;
+
+}
+#Article3 img
+{
+
+	height: 230px;
+	width: 343px;
+	margin-right: 7%;
+}
+
+
+
+#Article4
+{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color:rgb(227, 68, 29);
+	margin-top: 10px;
+}
+
+#Article4 p 
+{
+	text-transform: initial;
+	color: rgb(48, 48, 48);
+	font-size: 1.2em;
+	margin-top: -10px;
+	text-align: center;
+
+
+}
+#Article4 img
+{
+	height: 200px;
+	width: 343px;
+}
+
+
+#Article5
+{
+	display: flex;
+	margin: auto;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color:rgb(227, 68, 29);
+	margin-top: 10px;
+}
+
+#Article5 p 
+{
+	text-transform: initial;
+	color: rgb(48, 48, 48);
+	font-size: 1.2em;
+	margin-top: -10px;
+	text-align: center;
+	max-width: 400px;
+
+}
+
+#conclusion
+{
+	display: flex;
+	background-color: rgb(227, 68, 29);
+	margin-top: 50px;
+	color: white;
+	width: 105%;
+	height: 300px;
+	text-align: center;
+	margin-left: -10px;
+	align-items: center;
+	justify-content: center;
+	padding-top: 0px;
+	font-size: 2em;
+
+}
+#Article5 img
+{
+	margin-right: 4%;
+}
+
+
+/* Footer */
+
+
+#menu_footer
+{
+	background-color: rgb(48, 48, 48);
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: -10px;
+width: 105%;
+height: 150px;
+}
+
+ul li
+{
+	text-decoration: none;
+	color: white;
+	list-style-type: none;
+
+}
+
+#menu_footer a
+{
+	text-decoration: none;
+	color: white;
+	list-style-type: none;
+}
+
+
+/*Responsive design*/
+@media screen and (max-width: 1000px)
+{
+/*header*/
+
+header
+{
+	flex-direction: column;
+	background-color: white;
+	height: 100px;
+	align-items: center;
+	text-align: center;
+}
+
+#logo img
+{
+	margin-left: 80px;	
+    width: 200px;
+    height: 60px;
+}
+
+nav ul
+{
+	padding-bottom: 10px;
+	text-align: right;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+
+/* Titre et photo d'accueil*/
+
+#accroche
+{
+	height: 400px;
+ 	background-size: 100% 120%;
+}
+
+#titre_accroche
+{
+		font-size: 2em;
+		margin-top: 120px;
+}
+
+#bouton_accroche
+{
+	font-size: 1.3em;
+	margin-top: 30px;
+
+}
+
+#explication
+{
+	margin-top: 80px;
+
+}
+
+#explication a
+{
+	font-size: 1.2em;
+
+}
+
+/* Body - Explication du concept */
+
+#ancre_accroche
+{
+	font-size: 1.3em;
+}
+
+#Article1
+{
+	margin-top: 40px;
+}
+
+
+#Article1 h2
+{
+font-size: 1.3em;
+}
+
+
+#img1
+{
+	height: 207px;
+	width: 310px;
+}
+
+#Article2
+{
+	margin-top: 10px;
+}
+
+#Article2 h2
+{
+font-size: 1.3em;
+}
+
+#Article2 img
+{
+	height: 207px;
+	width: 310px;
+}
+
+#Article3
+{
+	
+	margin-top: 10px;
+}
+
+#Article3 h2
+{
+font-size: 1.3em;
+}
+
+#Article3 img
+{
+
+	height: 207px;
+	width: 310px;
+	margin-right: 7%;
+}
+
+#Article4
+{
+
+	margin-top: 10px;
+}
+
+#Article4 h2
+{
+font-size: 1.3em;
+}
+
+
+#Article4 img
+{
+	height: 200px;
+	width: 343px;
+}
+
+#Article5
+{
+	margin-top: 10px;
+}
+
+#Article5 h2
+{
+font-size: 1.3em;
+}
+#Article5 img
+{
+	height: 120px;
+	width: 300px;
+}
+
+#conclusion
+{
+	height: 200px;
+	font-size: 1.2em;
+}
+
+
+
+/*Responsive design*/
+@media screen and (max-width: 500px)
+{
+/*header*/
+
+header
+{
+	flex-direction: row;
+	height: 100px;
+	align-items: center;
+	text-align: center;
+	margin-right: 10px;
+}
+
+#logo img
+{
+	margin-left: 10px;	
+    width: 178px;
+    height: 48px;
+}
+
+nav ul
+{
+	flex-direction: column;
+	padding-bottom: 10px;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+/* Titre et photo d'accueil*/
+
+#accroche
+{
+	height: 300px;
+ 	background-size: 100% 120%;
+}
+
+#titre_accroche
+{
+	font-size: 1.3em;
+	margin-top: 100px;
+}
+
+#bouton_accroche
+{
+	font-size: 1em;
+	margin-top: 30px;
+}
+
+#explication
+{
+	margin-top: 50px;
+}
+
+#explication a
+{
+	font-size: 0.9em;
+}
+
+/* Body - Explication du concept */
+
+#ancre_accroche
+{
+	font-size: 1.3em;
+}
+
+#Article1
+{
+	margin-top: 40px;
+}
+
+
+#Article1 h2
+{
+font-size: 1.1em;
+}
+
+#Article1 p
+{
+font-size: 1em;
+}
+
+#img1
+{
+	display: none;
+}
+
+#Article2
+{
+	margin-top: 10px;
+}
+
+#Article2 h2
+{
+font-size: 1.1em;
+}
+
+#Article2 p
+{
+font-size: 1em;
+}
+
+#Article2 img
+{
+display: none;
+}
+#Article3
+{
+	margin-top: 10px;
+	width: 500px;
+	text-align: center;
+}
+
+#Article3 h2
+{
+font-size: 1.1em;
+margin-right: 10px;
+}
+#Article3 p
+{
+font-size: 1em;
+}
+
+#Article3 img
+{
+display: none;
+}
+
+#Article4
+{
+
+	margin-top: 10px;
+}
+
+#Article4 h2
+{
+font-size: 1.1em;
+}
+
+
+#Article4 p
+{
+font-size: 1em;
+}
+
+
+#Article4 img
+{
+display: none;
+}
+
+#Article5
+{
+	margin-top: 10px;
+}
+
+#Article5 h2
+{
+font-size: 1.1em;
+}
+
+#Article5 p
+{
+font-size: 1em;
+}
+#Article5 img
+{
+	display: none;
+}
+
+#conclusion
+{
+	height: 200px;
+	font-size: 1em;
+
+}

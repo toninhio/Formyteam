@@ -77,7 +77,11 @@ font-size: 4em;
 /*Explication*/
 
 .bloc {
-	margin-top: 5em;
+	margin-top: 3em;
+}
+
+.title {
+	margin-bottom: 5em;
 }
 
 .texte {
@@ -124,4 +128,8 @@ li a, a:hover {
 #contact a {
 	color: white;
 	text-decoration: 
+}
+
+.fleche {
+	margin-top: 2em;
 }
